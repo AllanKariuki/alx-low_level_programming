@@ -1,4 +1,4 @@
-#inlclude <stdio.h>
+#include <stdio.h>
 /**
  * main - prints sizes of types
  * description: printts sizes of several data types

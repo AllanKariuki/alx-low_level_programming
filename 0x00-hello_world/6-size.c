@@ -1,9 +1,10 @@
 #include <stdio.h>
 /**
- * main - prints sizes of types
- * description: printts sizes of several data types
- * return: 0
+ * main - prints size of types
+ * description: printts sizes of several data types in bytes
+ * Return: 0
  */
+
 int main(void)
 {
 	char c;

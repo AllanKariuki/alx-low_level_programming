@@ -8,9 +8,11 @@
 int main(void)
 {
 	int ch;
-	for (ch = 'a'; ch <= 'z', ch++)
-		puthcar(ch);
+	for (ch = 'a'; ch <= 'z'; ch++)
+	{
+		puthchar(ch);
 		putchar('\n');
 		getch();
+	}
 	return (0);
 }

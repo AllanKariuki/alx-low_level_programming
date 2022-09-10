@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main - prints lowercase letters of the alphabet
+ * main - prints alphabets
  * Description: Prints letter of the alphabet, a to z in lowercase
- * Returns: 0
+ * Return: 0
  */
 
 int main(void)

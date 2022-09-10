@@ -2,7 +2,8 @@
 
 /**
  * main - prints a string
- * Description : prints and that piece of art is useful" - Dora Korpar, 2015-10-19
+ * Description : prints and that piece of art is usefu
+ * l\" - Dora Korpar, 2015-10-19
  * Return: 1
  */
 

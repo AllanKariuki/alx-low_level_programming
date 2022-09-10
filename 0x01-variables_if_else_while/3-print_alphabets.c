@@ -1,10 +1,8 @@
 #include <stdio.h>
 
 /**
- *
  * main - prints alphabets
  * Description: Prints letter of the alphabet, a to z in lowercase
- *
  * Return: 0
  */
 
@@ -15,11 +13,10 @@ int main(void)
 	int ch;
 
 	for (ch = 'a'; ch <= 'z'; ch++)
-
 	{
 		putchar(ch);
 	}
-	for (ch = 'A'; ch<= 'Z'; ch++)
+	for (ch = 'A'; ch <= 'Z'; ch++)
 	{
 		putchar(ch);
 	}

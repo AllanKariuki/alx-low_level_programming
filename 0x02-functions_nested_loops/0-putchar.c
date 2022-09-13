@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
  * main- prints a string
@@ -8,6 +8,10 @@
 
 int main(void)
 {
-	printf("_putchar\n");
+	char my = "_putchar";
+
+	_putchar(my);
+	_putchar('\n');
+
 	return (0);
 }

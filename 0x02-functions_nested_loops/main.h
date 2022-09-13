@@ -1,5 +1,5 @@
-#ifndef myheader.h
-#def myheader.h
+#ifndef MAIN_H
+#def MAIN_H
 
 char _putchar(char c);
 #endif

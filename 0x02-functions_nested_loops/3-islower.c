@@ -16,6 +16,7 @@ int _islower(int c)
 		if (c == ch)
 		{
 			val = 1;
+			break;
 		}
 		else
 		{

@@ -2,8 +2,6 @@
 
 /**
  * jack_bauer - prints time in 24 hrs
- * @h: represents the hours
- * @m: represents the minutes
  * Return: void
  */
 

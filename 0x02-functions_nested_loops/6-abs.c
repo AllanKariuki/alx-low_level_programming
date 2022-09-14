@@ -2,20 +2,20 @@
 
 /**
  * _abs - return absolute value
- * @int: the integer being checked
- * Return: int
+ * @n: the integer being checked
+ * Return: absolute n
  */
 
-int _abs(int)
+int _abs(int n)
 {
 	int abs;
 
-	if (int < 0)
+	if (n < 0)
 	{
-		abs = int * -1;
+		abs = n * -1;
 	}else
 	{
-		abs = int;
+		abs = n;
 	}
 	return (abs);
 }

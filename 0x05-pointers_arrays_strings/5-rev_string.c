@@ -2,7 +2,6 @@
 
 /**
  * _strlen - return the length
- * rev_string - reverses string
  * @s: string s
  * Return: length of string
  */
@@ -19,6 +18,11 @@ int _strlen(char *s)
 
 	return (len);
 }
+/**
+ * rev_string - reverses string
+ * @s: string
+ * Return: void
+ */
 
 void rev_string(char *s)
 {
@@ -29,7 +33,7 @@ void rev_string(char *s)
 	while (counter < ln1 / 2)
 	{
 		temp = *(s + counter);
-		*(s + counter) = *(s + ln1 - 1 -counter);
+		*(s + counter) = *(s + ln1 - 1 - counter);
 		*(s + ln1 - 1 - counter) = temp;
 		counter++;
 	}

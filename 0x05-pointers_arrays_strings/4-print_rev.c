@@ -6,28 +6,25 @@
  * Return: void
  */
 
+int _strlen(char *s)
+{
+	char *p = s;
+
+	while (*s)
+	{
+		s++;
+	}
+	return (s - p);
+}
+
 void print_rev(char *s)
 {
-	int _strlen(char *s)
-	{
-		char *p = s;
+	int size = _strlen(s);
 
-		while (*s)
-		{
-			s++;
-		}
-		return (s - p);
+	while (size--)
+	{
+		_putchar(*(s + size));
 	}
 
-	void print_rev(char *s)
-	{
-		int size = _strlen(s);
-
-		while (size--)
-		{
-			_putchar(*(s + size));
-		}
-
-		_putchar('\n');
-	}
+	_putchar('\n');
 }

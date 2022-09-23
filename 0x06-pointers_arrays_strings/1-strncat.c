@@ -52,5 +52,3 @@ char *_strncat(char *dest, char *src, int n)
 
 	return (cat);
 }
-Footer
-© 2022 GitHub, Inc.

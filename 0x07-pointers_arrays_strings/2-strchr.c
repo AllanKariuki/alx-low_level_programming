@@ -9,7 +9,6 @@
 
 char *_strchr(char *s, char c)
 {
-	c = 'c';
 
 	while(*s)
 	{
